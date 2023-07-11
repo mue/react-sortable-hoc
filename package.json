@@ -1,5 +1,5 @@
 {
-  "name": "react-sortable-hoc",
+  "name": "@muetab/react-sortable-hoc",
   "version": "2.0.0",
   "description": "Set of higher-order components to turn any list into a sortable, touch-friendly, animated list",
   "author": {
@@ -7,7 +7,7 @@
     "email": "me@ced.io"
   },
   "user": "clauderic",
-  "homepage": "https://github.com/clauderic/react-sortable-hoc",
+  "homepage": "https://github.com/mue/react-sortable-hoc",
   "source": "src/index.js",
   "main": "dist/react-sortable-hoc.js",
   "umd:main": "dist/react-sortable-hoc.umd.js",
@@ -17,10 +17,10 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/clauderic/react-sortable-hoc.git"
+    "url": "https://github.com/mue/react-sortable-hoc.git"
   },
   "bugs": {
-    "url": "https://github.com/clauderic/react-sortable-hoc/issues"
+    "url": "https://github.com/mue/react-sortable-hoc/issues"
   },
   "keywords": [
     "react",
@@ -54,8 +54,8 @@
   },
   "peerDependencies": {
     "prop-types": "^15.5.7",
-    "react": "^16.3.0 || ^17.0.0",
-    "react-dom": "^16.3.0 || ^17.0.0"
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   },
   "devDependencies": {
     "@babel/core": "^7.2.2",
@@ -85,11 +85,11 @@
     "postcss-loader": "^3.0.0",
     "prettier": "^1.18.2",
     "pretty-quick": "^1.11.1",
-    "react": "^16.7.0",
+    "react": "^18.2.0",
     "react-addons-pure-render-mixin": "^15.0.2",
     "react-addons-shallow-compare": "^15.1.0",
     "react-addons-test-utils": "^15.1.0",
-    "react-dom": "^16.7.0",
+    "react-dom": "^18.2.0",
     "react-infinite": "^0.13.0",
     "react-inspector": "^3.0.2",
     "react-tiny-virtual-list": "^2.0.1",
