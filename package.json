@@ -1,6 +1,6 @@
 {
   "name": "@muetab/react-sortable-hoc",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Set of higher-order components to turn any list into a sortable, touch-friendly, animated list",
   "author": {
     "name": "Clauderic Demers",
@@ -41,11 +41,6 @@
     "build": "rollup -c",
     "test": "eslint src/** --ext .js --quiet",
     "release": "standard-version --no-verify"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "pretty-quick --staged"
-    }
   },
   "dependencies": {
     "@babel/runtime": "^7.13.0",
